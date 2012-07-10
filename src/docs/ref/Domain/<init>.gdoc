@@ -1,0 +1,20 @@
+
+h1. <init>
+
+h2. Purpose
+
+
+
+h2. Examples
+
+{code:java}
+foo.<init>()
+{code}
+
+h2. Description
+
+
+
+Arguments:
+
+[]

@@ -1,0 +1,21 @@
+
+h1. fire_estadoEnvio
+
+h2. Purpose
+
+
+
+h2. Examples
+
+{code:java}
+foo.fire_estadoEnvio(string)
+{code}
+
+h2. Description
+
+
+
+Arguments:
+
+[* @string@
+]

@@ -1,0 +1,22 @@
+
+h1. fire
+
+h2. Purpose
+
+
+
+h2. Examples
+
+{code:java}
+foo.fire(string,string)
+{code}
+
+h2. Description
+
+
+
+Arguments:
+
+[* @string@
+, * @string@
+]
