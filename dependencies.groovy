@@ -1,11 +1,3 @@
-coverage {
-    exclusions = [
-                 'grails/fixture/**',
-                 'org/grails/**',
-                 '**/BuildConfig*',
-                 ]
-}
-
 grails.project.dependency.resolution = {
     inherits "global" // inherit Grails' default dependencies
     log "warn" // log level of Ivy resolver, either 'error',
@@ -21,5 +13,9 @@ grails.project.dependency.resolution = {
     }
     dependencies {
     }
+    plugins{
+        test ":code-coverage:1.2.5"
+    }
 }
+
 
