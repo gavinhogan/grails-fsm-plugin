@@ -17,7 +17,7 @@ import org.codehaus.groovy.grails.commons.metaclass.*
 
 class FsmGrailsPlugin {
     // the plugin version
-    def version = "0.6.6-MP"
+    def version = "0.6.7"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.1.1 > *"
     // the other plugins this plugin depends on
