@@ -1,23 +1,12 @@
-import groovy.lang.MetaProperty;
-import org.codehaus.groovy.grails.commons.spring.DefaultBeanConfiguration;
-
-import org.codehaus.groovy.runtime.metaclass.ThreadManagedMetaBeanProperty;
-
-import grails.plugin.fsm.FsmSupport
 import grails.plugin.fsm.FsmUtils
 import grails.plugin.fsm.FsmSupportException
-
 import org.springframework.beans.BeanUtils;
-import org.springframework.context.ApplicationContext;
-
-
 import org.codehaus.groovy.grails.commons.GrailsClassUtils
-import org.codehaus.groovy.grails.commons.metaclass.*
 
 
 class FsmGrailsPlugin {
     // the plugin version
-    def version = "0.6.7"
+    def version = "0.6.8.MP"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.1.1 > *"
     // the other plugins this plugin depends on
